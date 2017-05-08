@@ -7,15 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B6F10278C92E68D6DDA0996 /* Pods_SearchPlace.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C353AE3FD3C96BA686A2E2E /* Pods_SearchPlace.framework */; };
 		984861481EA6594000F50DDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984861471EA6594000F50DDA /* AppDelegate.swift */; };
 		9848614A1EA6594000F50DDA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984861491EA6594000F50DDA /* ViewController.swift */; };
 		9848614D1EA6594000F50DDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9848614B1EA6594000F50DDA /* Main.storyboard */; };
 		984861501EA6594000F50DDA /* SearchPlace.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9848614E1EA6594000F50DDA /* SearchPlace.xcdatamodeld */; };
 		984861521EA6594000F50DDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 984861511EA6594000F50DDA /* Assets.xcassets */; };
 		984861551EA6594000F50DDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 984861531EA6594000F50DDA /* LaunchScreen.storyboard */; };
+		9848615D1EA6629400F50DDA /* MapViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9848615C1EA6629400F50DDA /* MapViewManager.swift */; };
+		9848615F1EA664BD00F50DDA /* MapAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9848615E1EA664BD00F50DDA /* MapAnnotation.swift */; };
+		984861611EA66A9800F50DDA /* MapRegionHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984861601EA66A9800F50DDA /* MapRegionHelper.swift */; };
+		984861631EA66CE100F50DDA /* NSManagedObjectContext+ Library.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984861621EA66CE100F50DDA /* NSManagedObjectContext+ Library.swift */; };
+		984861651EA66DBD00F50DDA /* NSmanagedObject+Library.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984861641EA66DBD00F50DDA /* NSmanagedObject+Library.swift */; };
+		984861671EA6801200F50DDA /* CustomActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984861661EA6801200F50DDA /* CustomActivityIndicator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5C353AE3FD3C96BA686A2E2E /* Pods_SearchPlace.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SearchPlace.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BF93B182A05DEF9BDF180E8 /* Pods-SearchPlace.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SearchPlace.release.xcconfig"; path = "Pods/Target Support Files/Pods-SearchPlace/Pods-SearchPlace.release.xcconfig"; sourceTree = "<group>"; };
 		984861441EA6594000F50DDA /* SearchPlace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SearchPlace.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		984861471EA6594000F50DDA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		984861491EA6594000F50DDA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +33,13 @@
 		984861511EA6594000F50DDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		984861541EA6594000F50DDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		984861561EA6594000F50DDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9848615C1EA6629400F50DDA /* MapViewManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewManager.swift; sourceTree = "<group>"; };
+		9848615E1EA664BD00F50DDA /* MapAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapAnnotation.swift; sourceTree = "<group>"; };
+		984861601EA66A9800F50DDA /* MapRegionHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapRegionHelper.swift; sourceTree = "<group>"; };
+		984861621EA66CE100F50DDA /* NSManagedObjectContext+ Library.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSManagedObjectContext+ Library.swift"; sourceTree = "<group>"; };
+		984861641EA66DBD00F50DDA /* NSmanagedObject+Library.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSmanagedObject+Library.swift"; sourceTree = "<group>"; };
+		984861661EA6801200F50DDA /* CustomActivityIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomActivityIndicator.swift; sourceTree = "<group>"; };
+		D50FFD9BB7C5E803B4D4E415 /* Pods-SearchPlace.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SearchPlace.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SearchPlace/Pods-SearchPlace.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +47,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B6F10278C92E68D6DDA0996 /* Pods_SearchPlace.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		069A59260132344A49589149 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D50FFD9BB7C5E803B4D4E415 /* Pods-SearchPlace.debug.xcconfig */,
+				7BF93B182A05DEF9BDF180E8 /* Pods-SearchPlace.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		19E7377E1F42C7A4DFE2F0D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5C353AE3FD3C96BA686A2E2E /* Pods_SearchPlace.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9848613B1EA6594000F50DDA = {
 			isa = PBXGroup;
 			children = (
 				984861461EA6594000F50DDA /* SearchPlace */,
 				984861451EA6594000F50DDA /* Products */,
+				069A59260132344A49589149 /* Pods */,
+				19E7377E1F42C7A4DFE2F0D5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +92,69 @@
 		984861461EA6594000F50DDA /* SearchPlace */ = {
 			isa = PBXGroup;
 			children = (
-				984861471EA6594000F50DDA /* AppDelegate.swift */,
-				984861491EA6594000F50DDA /* ViewController.swift */,
-				9848614B1EA6594000F50DDA /* Main.storyboard */,
+				9848616C1EA6814800F50DDA /* Start */,
+				9848616A1EA6812200F50DDA /* Storyboard */,
+				9848616B1EA6813200F50DDA /* Controller */,
+				984861691EA680D500F50DDA /* Map Manager */,
+				9848616D1EA6815A00F50DDA /* Data Model */,
 				984861511EA6594000F50DDA /* Assets.xcassets */,
-				984861531EA6594000F50DDA /* LaunchScreen.storyboard */,
 				984861561EA6594000F50DDA /* Info.plist */,
-				9848614E1EA6594000F50DDA /* SearchPlace.xcdatamodeld */,
+				984861681EA680BA00F50DDA /* Library */,
 			);
 			path = SearchPlace;
+			sourceTree = "<group>";
+		};
+		984861681EA680BA00F50DDA /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				984861661EA6801200F50DDA /* CustomActivityIndicator.swift */,
+				984861641EA66DBD00F50DDA /* NSmanagedObject+Library.swift */,
+				984861621EA66CE100F50DDA /* NSManagedObjectContext+ Library.swift */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		984861691EA680D500F50DDA /* Map Manager */ = {
+			isa = PBXGroup;
+			children = (
+				9848615C1EA6629400F50DDA /* MapViewManager.swift */,
+				984861601EA66A9800F50DDA /* MapRegionHelper.swift */,
+				9848615E1EA664BD00F50DDA /* MapAnnotation.swift */,
+			);
+			name = "Map Manager";
+			sourceTree = "<group>";
+		};
+		9848616A1EA6812200F50DDA /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				9848614B1EA6594000F50DDA /* Main.storyboard */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		9848616B1EA6813200F50DDA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				984861491EA6594000F50DDA /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		9848616C1EA6814800F50DDA /* Start */ = {
+			isa = PBXGroup;
+			children = (
+				984861531EA6594000F50DDA /* LaunchScreen.storyboard */,
+				984861471EA6594000F50DDA /* AppDelegate.swift */,
+			);
+			name = Start;
+			sourceTree = "<group>";
+		};
+		9848616D1EA6815A00F50DDA /* Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				9848614E1EA6594000F50DDA /* SearchPlace.xcdatamodeld */,
+			);
+			name = "Data Model";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +164,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 984861591EA6594000F50DDA /* Build configuration list for PBXNativeTarget "SearchPlace" */;
 			buildPhases = (
+				1A5EB994890270DBCD64B92F /* [CP] Check Pods Manifest.lock */,
 				984861401EA6594000F50DDA /* Sources */,
 				984861411EA6594000F50DDA /* Frameworks */,
 				984861421EA6594000F50DDA /* Resources */,
+				62A514E51C12AF9E188CEBD4 /* [CP] Embed Pods Frameworks */,
+				E0E7582E88EB919037D7A62E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -135,14 +228,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1A5EB994890270DBCD64B92F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		62A514E51C12AF9E188CEBD4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SearchPlace/Pods-SearchPlace-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0E7582E88EB919037D7A62E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SearchPlace/Pods-SearchPlace-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		984861401EA6594000F50DDA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				984861631EA66CE100F50DDA /* NSManagedObjectContext+ Library.swift in Sources */,
+				984861611EA66A9800F50DDA /* MapRegionHelper.swift in Sources */,
 				984861501EA6594000F50DDA /* SearchPlace.xcdatamodeld in Sources */,
+				9848615F1EA664BD00F50DDA /* MapAnnotation.swift in Sources */,
 				9848614A1EA6594000F50DDA /* ViewController.swift in Sources */,
+				984861671EA6801200F50DDA /* CustomActivityIndicator.swift in Sources */,
+				984861651EA66DBD00F50DDA /* NSmanagedObject+Library.swift in Sources */,
 				984861481EA6594000F50DDA /* AppDelegate.swift in Sources */,
+				9848615D1EA6629400F50DDA /* MapViewManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,12 +410,14 @@
 		};
 		9848615A1EA6594000F50DDA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D50FFD9BB7C5E803B4D4E415 /* Pods-SearchPlace.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 374A5BSW36;
 				INFOPLIST_FILE = SearchPlace/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Hummingwave.SearchPlace;
+				PRODUCT_BUNDLE_IDENTIFIER = DeblinaOwned.SearchPlace;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -276,12 +425,14 @@
 		};
 		9848615B1EA6594000F50DDA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BF93B182A05DEF9BDF180E8 /* Pods-SearchPlace.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 374A5BSW36;
 				INFOPLIST_FILE = SearchPlace/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Hummingwave.SearchPlace;
+				PRODUCT_BUNDLE_IDENTIFIER = DeblinaOwned.SearchPlace;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -306,6 +457,7 @@
 				9848615B1EA6594000F50DDA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
