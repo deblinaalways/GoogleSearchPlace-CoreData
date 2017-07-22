@@ -10,7 +10,6 @@ import UIKit
 import GooglePlaces
 import MapKit
 
-//AIzaSyBxs66k-161duc0IkuCDBSEKi_hDMMCM4I
 
 class ViewController: UIViewController, GMSAutocompleteResultsViewControllerDelegate {
     
