@@ -21,7 +21,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
     
     func setupFramework() {
-        GMSPlacesClient.provideAPIKey("AIzaSyABc86A77BAgBXj7i4VwADTp3T0WYbW7cw")
+        GMSPlacesClient.provideAPIKey("***********************************")
     }
 }
 
